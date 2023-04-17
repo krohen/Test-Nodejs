@@ -1,19 +1,16 @@
 {
-    "name": "express-hello-world",
-    "version": "1.0.0",
-    "description": "Hello world app with express 4",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-      "express",
-      "hello-world"
-    ],
-    "author": "Kik",
-    "license": "MIT",
-    "dependencies": {
-      "express": "^4.15.0"
-    }
+  "name": "counter-visit-github",
+  "version": "1.0.0",
+  "description": "Visit GitHub",
+  "main": "index.js",
+  "repository": "https://github.com/Pierre-Portfolio/counter-visit-github.git",
+  "author": "Kik",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
