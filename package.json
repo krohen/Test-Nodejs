@@ -4,7 +4,7 @@
   "description": "Visit GitHub",
   "main": "index.js",
   "repository": "https://github.com/Pierre-Portfolio/counter-visit-github.git",
-  "author": "Kik",
+  "author": "Pierre-Portfolio <60719810+Pierre-Portfolio@users.noreply.github.com>",
   "license": "MIT",
   "type": "module",
   "dependencies": {
@@ -14,3 +14,4 @@
   "scripts": {
     "start": "node index.js"
   }
+}
