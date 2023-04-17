@@ -9,7 +9,7 @@ app.get('/count', async (req, res) => {
         'cache-control': 'max-age=0, no-cache, no-store, must-revalidate'
     })
 
-    const img = await ((await fetch('"https://counter2.optistats.ovh/private/compteurdevisite.php?c=dnam55dyx74mjjfxd96ft86wupxljs4b'))).arrayBuffer();
+    const img = await ((await fetch('https://counter2.optistats.ovh/private/compteurdevisite.php?c=dnam55dyx74mjjfxd96ft86wupxljs4b'))).arrayBuffer();
 
     res.end(new Uint8Array(img), 'binary');
 });
